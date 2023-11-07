@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #1A1A1A;
+&__container {
+  max-width: 40%;
+  margin: 0 auto;
+}
+&__icons {
+  @include flex_center_center;
+}
+&__arrow {
+  text-align: center;
+}
+&__title {
+  color: #fff;
+}
+}
+
+.fa {
+  &-github {
+    font-size: 40px;
+  }
+    &-envelope {
+    font-size: 40px;
+  }
+  &-arrow-up {
+    @include flex_center_center;
+    font-size: 40px;
+    color: #fff;
+  }
+}

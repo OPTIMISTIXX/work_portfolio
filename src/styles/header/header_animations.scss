@@ -1,0 +1,8 @@
+.nav__link_lighted:hover {
+  background-color: #eeeee4;
+  text-decoration: none;
+}
+
+.nav__link:hover::before {
+  background-color: #fff;
+}

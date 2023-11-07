@@ -1,0 +1,44 @@
+@media (max-width: 548px) {
+  .skills {
+    margin: 35px 0 50px;
+    &__title {
+      margin: 0 0 70px;
+      font-size: 24px;
+    }
+    &__other {
+      display: none;
+    }
+  }
+  .grid {
+    grid-gap: 30px 1px;
+  }
+  .item {
+    &__text {
+
+    }
+  }
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 320px) {
+  .skills {
+    margin: 35px 0 50px;
+    &__title {
+      margin: 0 0 20px;
+      text-align: center;
+    }
+  }
+  .grid {
+    grid-gap: 5px 1px;
+  }
+  .item {
+    &__text {
+
+    }
+  }
+  .grid {
+  grid-template: 1fr/1fr;
+  }
+}

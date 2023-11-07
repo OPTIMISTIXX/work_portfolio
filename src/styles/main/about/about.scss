@@ -1,0 +1,85 @@
+:root {
+  --berries_phone_position: 15%;
+ --berries_phone_height: 15%;
+}
+
+$header-height: 680px;
+
+main {
+  margin-top: $header-height;
+}
+
+
+.about {
+  font-family:"Montserrat";
+  position: relative;
+  &__title {
+   @include  relativeCentration;
+    display: inline-block;
+    margin: 50px auto;
+    border: 10px solid black;
+    font-family: inherit;
+
+  }
+  &__text {
+    font-family: "Open Sans";
+  }
+}
+
+.explore {
+  &__title {
+    font-family: inherit;
+    text-align: center;
+  }
+  &__title::before{
+    content: '';
+    position: absolute;
+    background-color: #000;
+  }
+
+  &__title::after{
+    content: '';
+    position: absolute;
+    background-color: #000;
+  }
+  &__arrows {
+    text-align: center;
+    transform: rotate(180deg);
+  }
+  &__arrows::before {
+    content: "";
+  }
+    display: inline-block;
+    @include  relativeCentration;
+
+}
+
+.abilities__subtitle {
+  font-weight: 300;
+  font-family: "Open Sans";
+}
+
+.abilities__title {
+  position: relative;
+  font-family: "Montserrat";
+}
+
+.abilities__title_front::before {
+  content: '';
+  position: absolute;
+  left: 0%;
+  transform: translateX(-90%);
+  background-image: url("../images/icons/front-end.png");
+  width: 50px;
+  height: 50px;
+}
+
+.abilities__title_back::before {
+  content: '';
+  position: absolute;
+  left: 0%;
+  transform: translate(-90%, -30%);
+  background-image: url("../images/icons/back-end.png");
+  width: 50px;
+  height: 50px;
+}

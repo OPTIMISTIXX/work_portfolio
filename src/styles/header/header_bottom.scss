@@ -1,0 +1,55 @@
+.header {
+  &__bottom {
+    position: relative;
+  }
+
+  &__left {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__right {
+
+  }
+
+  &__title {
+    margin-top: 54px;
+  }
+
+  &__subtitle {
+    font-size: 25px;
+    margin-bottom: 130px;
+    color: #909090;
+  }
+
+  &__title, &__subtitle {
+    font-family: 'Raleway';
+  }
+
+  &__rectangle {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    right: 0%;
+    background-image: url("rectangle01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__button {
+    width: 61px;
+    height: 56px;
+    background-color: #C4C4C4;
+  }
+}
+
+h2.header__title {
+  font-size: 40px;
+}
+
+h1.header__title {
+  font-size: 80px;
+}
+

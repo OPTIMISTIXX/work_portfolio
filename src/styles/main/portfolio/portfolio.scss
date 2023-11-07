@@ -1,0 +1,17 @@
+.portfolio {
+  &__top {
+    background-image: url("../images/pictures/wallpaper.svg");
+  }
+  &__bottom {
+    background: #1A1A1A;
+  }
+}
+
+.icon {
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+.portfolio__grid {
+  grid-gap: 10px 7px;
+}

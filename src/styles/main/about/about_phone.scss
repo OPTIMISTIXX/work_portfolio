@@ -1,0 +1,48 @@
+@media (max-width: 548px) {
+  main {
+    
+  }
+
+  .about {
+    &__title {
+      font-size: 28px;
+
+    }
+    &__text {
+      font-size: 18px;
+    }
+  }
+  .about__text {
+    margin-bottom: 30px;
+  }
+
+  .explore {
+    margin-bottom: 66px;
+    &__title, &__arrows {
+      font-size: 26px;
+    }
+    &__title::before{
+      left: -10px;
+      width: 3px;
+      height: 30px;
+    }
+    &__title::after{
+      right: -10px;
+      width: 3px;
+      height: 30px;
+    }
+  }
+
+  .about__abilities {
+    margin-bottom: 60px;
+  }
+
+  .abilities {
+    &__title:before{
+      display: none;
+    }
+  }
+  .abilities {
+    margin-bottom: 20px;
+  }
+}

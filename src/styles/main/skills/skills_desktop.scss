@@ -1,0 +1,11 @@
+@media (min-width: 1280px) {
+  .skills {
+    margin: 70px 0 100px;
+    &__title {
+      margin: 0 0 70px;
+    }
+    &__grid {
+      gap: 20px 0;
+    }
+  }
+}

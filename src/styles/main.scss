@@ -1,0 +1,45 @@
+//-------SRC-IMPORT----------
+@import "utils";
+@import "fonts";
+@import "typography";
+@import "./page/page.scss";
+
+//--------HEADER-IMPORT--------
+@import "./header/header_top.scss";
+@import "./header/header_bottom.scss";
+@import "./header/header_desktop.scss";
+@import "./header/header_tablet.scss";
+@import "./header/header__phone.scss";
+@import "./header/header_berries.scss";
+@import "./header/header_burger.scss";
+@import "./header/header_animations.scss";
+
+//------MAIN-ABOUT-MPORT-------------
+@import "./main/about/about.scss";
+@import "./main/about/about_phone.scss";
+@import "./main/about/about_tablet.scss";
+@import "./main/about/about_desktop.scss";
+
+//------MAIN-SKILLS------------------
+@import "main/skills/skills.scss";
+@import "main/skills/skills_desktop.scss";
+@import "main/skills/skills_tablet.scss";
+@import "main/skills/skills_phone.scss";
+
+//------MAIN-PORTFOLIO------------------
+@import "main/portfolio/portfolio.scss";
+@import "main/portfolio/portfolio__desktop.scss";
+@import "main/portfolio/portfolio__tablet.scss";
+@import "main/portfolio/portfolio__phone.scss";
+@import "main/portfolio/portfolio__animations.scss";
+
+//------MAIN-FORM------------------
+@import "main/form/form.scss";
+@import "main/form/form_animations.scss";
+
+//------MAIN-FORM------------------
+@import "footer/footer.scss";
+@import "footer/footer_desktop.scss";
+@import "footer/footer_tablet.scss";
+@import "footer/footer_phone.scss";
+@import "footer/footer_animations.scss";

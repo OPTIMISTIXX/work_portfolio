@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #1A1A1A;
+&__container {
+  max-width: 40%;
+  margin: 0 auto;
+}
+&__icons {
+  @include flex_center_center;
+  gap: 30px;
+  margin: 20px auto;
+}
+
+&__title {
+  color: #fff;
+}
+}
+
+.fa {
+  &-github, &-envelope, &-telegram {
+    font-size: 40px;
+    transition: 0.5s ease;
+    color: #fff;
+  }
+  &-arrow-up {
+    @include flex_center_center;
+    font-size: 40px;
+  }
+}

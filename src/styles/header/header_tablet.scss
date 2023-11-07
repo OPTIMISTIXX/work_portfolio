@@ -1,0 +1,65 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .header {
+    &__bottom {
+      height: 100%;
+    }
+
+
+    &__myself {
+      width: 110%;
+      height: 100%;
+    }
+
+
+  &__rectangle {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    right: 0%;
+    background-image: url("rectangle01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  }
+}
+
+@media (min-width: 548px) and (max-width: 767px) {
+  .header {
+    &__rectangle {
+      width: 70%;
+    }
+    &__subtitle {
+      font-size: 12px;
+    }
+    &__myself {
+      height: 90%;
+    }
+    &__rectangle {
+      height: 90%;
+    }
+    &__container {
+      height: 100%;
+    }
+  }
+  h2.header__title {
+    font-size: 17px;
+  }
+
+  h1.header__title {
+    font-size: 37px;
+  }
+}
+
+
+@media (max-width: 680px) {
+  .header {
+    &__myself {
+      height: 80%;
+    }
+    &__rectangle {
+      height: 80%;
+    }
+  }
+}

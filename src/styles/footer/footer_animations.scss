@@ -1,0 +1,16 @@
+.fa {
+  &-github:hover {
+    color: orange;
+  }
+  &-envelope:hover {
+    color: red;
+  }
+  &-telegram:hover {
+    color: #229ED9;
+  }
+  &-github:hover,
+  &-envelope:hover,
+  &-telegram:hover {
+    transform: scale(1.2);
+  }
+}

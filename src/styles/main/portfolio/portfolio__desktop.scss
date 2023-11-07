@@ -1,0 +1,7 @@
+@media (min-width: 981px) {
+  .portfolio {
+    &__grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+@media (min-width: 768px) and (max-width: 1280px) {
+  .header {
+
+    &__bottom {
+      height: 100%;
+    }
+
+    &__container {
+      height: 100%;
+    }
+
+    &__myself {
+      width: 110%;
+      height: 100%;
+    }
+
+  &__subtitle {
+    font-size: 16px;
+  }
+
+  &__rectangle {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    right: 0%;
+    background-image: url("rectangle01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1280px) {
+  .header {
+    &__rectangle {
+      width: 70%;
+    }
+  }
+  h2.header__title {
+    font-size: 30px;
+  }
+
+  h1.header__title {
+    font-size: 60px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 980px) {
+  .header {
+    &__rectangle {
+      width: 70%;
+    }
+  }
+  &__myself {
+    width: 110%;
+  }
+
+  h2.header__title {
+    font-size: 30px;
+  }
+
+  h1.header__title {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__myself {
+    height: 100%;
+  }
+}
